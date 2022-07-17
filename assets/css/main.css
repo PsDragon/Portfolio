@@ -111,7 +111,7 @@ a {
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 1px;
+  border-bottom: dotted 0px;
   color: #f56a6a;
   text-decoration: none; }
   a:hover {
@@ -1269,6 +1269,16 @@ a.image {
     -webkit-transform: scale(1.075);
     -ms-transform: scale(1.075);
     transform: scale(1.075); }
+    a.image1 img {
+      -moz-transition: -moz-transform 0.2s ease;
+      -webkit-transition: -webkit-transform 0.2s ease;
+      -ms-transition: -ms-transform 0.2s ease;
+      transition: transform 0.2s ease; }
+    a.image1:hover img{
+      -moz-transform: scale(1.075);
+      -webkit-transform: scale(1.075);
+      -ms-transform: scale(1.075);
+      transform: scale(1.075); }
 
 /* List */
 ol {
