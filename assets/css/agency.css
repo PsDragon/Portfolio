@@ -247,7 +247,7 @@ img::-moz-selection {
     background-image: url("../img/overview_RGG_faded.png");
 
     /* Set a specific height */
-    min-height: 100px;
+    min-height: 0px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
