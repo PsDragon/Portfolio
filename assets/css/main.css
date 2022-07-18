@@ -2174,6 +2174,7 @@ button,
       width: 100%; }
   @media screen and (orientation: portrait) {
     #banner {
+      padding: 6em 0 4em 0 ;
       -moz-flex-direction: column-reverse;
       -webkit-flex-direction: column-reverse;
       -ms-flex-direction: column-reverse;
