@@ -261,7 +261,7 @@ img::-moz-selection {
     background-image: url("../img/parallax/poster_zoom_fadded.png");
 
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 0px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
